@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <title>From</title>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+
+        .box {
+            height: 150px;
+            width: 150px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .titiel-second {
+            color: goldenrod;
+            text-decoration: underline;
+        }
+
+        .reg {
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+
+        .input-fild h6 {
+            margin-left: 15px !important;
+        }
+
+        .modal-box {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <section class="container  my-5">
+                    <div class="row justify-content-between">
+                        <div class="col-md-3 col-12">
+                            <img src="images/education-logo-free-vector.jpg" alt="">
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <img src="images/education-logo-free-vector.jpg" alt="">
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <div class="box m-auto">
+                                <h4>Photo</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-5 text-center text-decoration-underline">Physics Alumni Association Rajshahi
+                        University</h2>
+                    <h2 class="mt-2 text-center titiel-second my-3">2nd REUNION 2023</h2>
+
+                    <div class="container">
+                        <div class="row justify-content-between mt-md-4">
+                            <div class="col-md-4 col-10 m-auto reg p-1">
+                                <span class="fw-bold ms-2">Reg No:</span> PR23- 01
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <h3 class="text-decoration-underline text-center py-2">Registration Form</h3>
+                            </div>
+                            <div class="col-md-4 col-10 m-auto reg ">
+                                <h6>Paid Amount: </h6>
+                                <h6>Mode of Payment:</h6>
+                            </div>
+                        </div>
+
+                        <form class="mt-5 input-fild" action="">
+                            <div class="row">
+
+                                <h6 class="p-0 ">Fill the from in English</h6>
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput"
+                                        placeholder="Name">
+                                </div>
+
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                        placeholder="Father’s Name">
+                                </div>
+
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" required
+                                        placeholder="Present Affiliation">
+                                </div>
+
+                                <h6 class="p-0 mt-4">Contact Address</h6>
+                                <div class="mb-3 col-md-4 col-12">
+
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" required
+                                        placeholder="Present">
+                                </div>
+
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="number" class="form-control" id="formGroupExampleInput2" required
+                                        placeholder="Phone">
+                                </div>
+
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="email" class="form-control" id="formGroupExampleInput2" required
+                                        placeholder="Email">
+                                </div>
+
+                                <h6 class="p-0 mt-4">Passing Year</h6>
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                        placeholder="BSc(Hons">
+                                </div>
+
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                        placeholder="MSc">
+                                </div>
+
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                        placeholder="MPhil/PhD">
+                                </div>
+
+                                <h6 class="p-0 mt-4">Number of Participating Children</h6>
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="number" min="0" class="form-control" id="formGroupExampleInput2"
+                                        placeholder="Above 10 years (with fee)">
+                                </div>
+
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                        placeholder="From 5 to 10 years (with fee)">
+                                </div>
+
+                                <div class="mb-3 col-md-4 col-12">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                                        placeholder="Below 5 years (without fee)">
+                                </div>
+
+                                <h6 class="p-0 mt-4 ">PAARU Membership</h6>
+                                <div class="col-11 m-auto col-md-4 form-check mb-3 mt-2  ">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheck1">
+                                    <label class="form-check-label" for="flexCheck1">
+                                        Existing Life Member
+                                    </label>
+                                </div>
+                                <div class="col-11 m-auto col-md-4 form-check  mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
+                                    <label class="form-check-label" for="flexCheck2">
+                                        New Life Member
+                                    </label>
+                                </div>
+                                <div class="col-11 m-auto  col-md-4 form-check  mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
+                                    <label class="form-check-label" for="flexCheck3">
+                                        Annual Member
+                                    </label>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- modal button -->
+    <div class="modal-box">
+        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first
+            modal</a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
